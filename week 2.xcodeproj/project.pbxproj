@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E29A1D4F18B774690015CAFC /* GeneralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E29A1D4E18B774690015CAFC /* GeneralViewController.m */; };
+		E29A1D5218B774A60015CAFC /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E29A1D5118B774A60015CAFC /* AboutViewController.m */; };
+		E29A1D5518B774C80015CAFC /* EasterEggViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E29A1D5418B774C80015CAFC /* EasterEggViewController.m */; };
+		E29A1D5818B774F60015CAFC /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E29A1D5718B774F60015CAFC /* DetailsViewController.m */; };
+		E29A1D5B18B7750A0015CAFC /* MoreDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E29A1D5A18B7750A0015CAFC /* MoreDetailsViewController.m */; };
 		E29B7F2818B653380057F0D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29B7F2718B653380057F0D0 /* Foundation.framework */; };
 		E29B7F2A18B653380057F0D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29B7F2918B653380057F0D0 /* CoreGraphics.framework */; };
 		E29B7F2C18B653380057F0D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29B7F2B18B653380057F0D0 /* UIKit.framework */; };
@@ -37,6 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E29A1D4D18B774690015CAFC /* GeneralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeneralViewController.h; path = ../GeneralViewController.h; sourceTree = "<group>"; };
+		E29A1D4E18B774690015CAFC /* GeneralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeneralViewController.m; path = ../GeneralViewController.m; sourceTree = "<group>"; };
+		E29A1D5018B774A60015CAFC /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		E29A1D5118B774A60015CAFC /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		E29A1D5318B774C80015CAFC /* EasterEggViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasterEggViewController.h; sourceTree = "<group>"; };
+		E29A1D5418B774C80015CAFC /* EasterEggViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasterEggViewController.m; sourceTree = "<group>"; };
+		E29A1D5618B774F60015CAFC /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		E29A1D5718B774F60015CAFC /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		E29A1D5918B7750A0015CAFC /* MoreDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreDetailsViewController.h; sourceTree = "<group>"; };
+		E29A1D5A18B7750A0015CAFC /* MoreDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreDetailsViewController.m; sourceTree = "<group>"; };
 		E29B7F2418B653380057F0D0 /* week 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "week 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29B7F2718B653380057F0D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E29B7F2918B653380057F0D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -121,9 +136,19 @@
 		E29B7F2D18B653380057F0D0 /* week 2 */ = {
 			isa = PBXGroup;
 			children = (
+				E29A1D4D18B774690015CAFC /* GeneralViewController.h */,
+				E29A1D4E18B774690015CAFC /* GeneralViewController.m */,
 				E29B7F3618B653380057F0D0 /* AppDelegate.h */,
 				E29B7F3718B653380057F0D0 /* AppDelegate.m */,
 				E29B7F3918B653390057F0D0 /* Main.storyboard */,
+				E29A1D5618B774F60015CAFC /* DetailsViewController.h */,
+				E29A1D5718B774F60015CAFC /* DetailsViewController.m */,
+				E29A1D5918B7750A0015CAFC /* MoreDetailsViewController.h */,
+				E29A1D5A18B7750A0015CAFC /* MoreDetailsViewController.m */,
+				E29A1D5318B774C80015CAFC /* EasterEggViewController.h */,
+				E29A1D5418B774C80015CAFC /* EasterEggViewController.m */,
+				E29A1D5018B774A60015CAFC /* AboutViewController.h */,
+				E29A1D5118B774A60015CAFC /* AboutViewController.m */,
 				E29B7F3C18B653390057F0D0 /* ViewController.h */,
 				E29B7F3D18B653390057F0D0 /* ViewController.m */,
 				E29B7F3F18B653390057F0D0 /* Images.xcassets */,
@@ -262,8 +287,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E29B7F3E18B653390057F0D0 /* ViewController.m in Sources */,
+				E29A1D5218B774A60015CAFC /* AboutViewController.m in Sources */,
+				E29A1D5518B774C80015CAFC /* EasterEggViewController.m in Sources */,
 				E29B7F3818B653380057F0D0 /* AppDelegate.m in Sources */,
+				E29A1D5818B774F60015CAFC /* DetailsViewController.m in Sources */,
 				E29B7F3418B653380057F0D0 /* main.m in Sources */,
+				E29A1D5B18B7750A0015CAFC /* MoreDetailsViewController.m in Sources */,
+				E29A1D4F18B774690015CAFC /* GeneralViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +502,7 @@
 				E29B7F5818B6533A0057F0D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E29B7F5918B6533A0057F0D0 /* Build configuration list for PBXNativeTarget "week 2Tests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +511,7 @@
 				E29B7F5B18B6533A0057F0D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
