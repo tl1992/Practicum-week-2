@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface AboutViewController : UIViewController
-@property (strong, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UITextField *inputField;
 
 @end
